@@ -16,3 +16,6 @@ http://ffll.sourceforge.net/
 
 ML:
 http://www.mlpack.org/
+
+Algortimos:
+Follow The Gap algorithm
