@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jlq2/Escritorio/var/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/alu/Documentos/var/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jlq2/Escritorio/var/catkin_ws/build
+CMAKE_BINARY_DIR = /home/alu/Documentos/var/catkin_ws/build
 
 # Utility rule file for std_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ wander/CMakeFiles/std_msgs_generate_messages_py.dir/build: std_msgs_generate_mes
 .PHONY : wander/CMakeFiles/std_msgs_generate_messages_py.dir/build
 
 wander/CMakeFiles/std_msgs_generate_messages_py.dir/clean:
-	cd /home/jlq2/Escritorio/var/catkin_ws/build/wander && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/alu/Documentos/var/catkin_ws/build/wander && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : wander/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 wander/CMakeFiles/std_msgs_generate_messages_py.dir/depend:
-	cd /home/jlq2/Escritorio/var/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jlq2/Escritorio/var/catkin_ws/src /home/jlq2/Escritorio/var/catkin_ws/src/wander /home/jlq2/Escritorio/var/catkin_ws/build /home/jlq2/Escritorio/var/catkin_ws/build/wander /home/jlq2/Escritorio/var/catkin_ws/build/wander/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alu/Documentos/var/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alu/Documentos/var/catkin_ws/src /home/alu/Documentos/var/catkin_ws/src/wander /home/alu/Documentos/var/catkin_ws/build /home/alu/Documentos/var/catkin_ws/build/wander /home/alu/Documentos/var/catkin_ws/build/wander/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : wander/CMakeFiles/std_msgs_generate_messages_py.dir/depend
 

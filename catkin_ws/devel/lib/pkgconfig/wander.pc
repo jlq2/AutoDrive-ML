@@ -1,8 +1,8 @@
-prefix=/home/jlq2/Escritorio/var/catkin_ws/devel
+prefix=/home/alu/Documentos/var/catkin_ws/devel
 
 Name: wander
 Description: Description of wander
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/jlq2/Escritorio/var/catkin_ws/devel/lib 
+Libs: -L/home/alu/Documentos/var/catkin_ws/devel/lib 
 Requires: 

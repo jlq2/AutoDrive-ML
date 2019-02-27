@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/jlq2/Escritorio/var/catkin_ws/src/wander/src/wander.cpp
+/home/alu/Documentos/var/catkin_ws/src/wander/src/wander.cpp
 ros/ros.h
-/home/jlq2/Escritorio/var/catkin_ws/src/wander/src/ros/ros.h
+/home/alu/Documentos/var/catkin_ws/src/wander/src/ros/ros.h
 geometry_msgs/Twist.h
-/home/jlq2/Escritorio/var/catkin_ws/src/wander/src/geometry_msgs/Twist.h
+/home/alu/Documentos/var/catkin_ws/src/wander/src/geometry_msgs/Twist.h
 sensor_msgs/LaserScan.h
-/home/jlq2/Escritorio/var/catkin_ws/src/wander/src/sensor_msgs/LaserScan.h
+/home/alu/Documentos/var/catkin_ws/src/wander/src/sensor_msgs/LaserScan.h
 cstdlib
 -
 ctime
 -
 nav_msgs/Odometry.h
-/home/jlq2/Escritorio/var/catkin_ws/src/wander/src/nav_msgs/Odometry.h
+/home/alu/Documentos/var/catkin_ws/src/wander/src/nav_msgs/Odometry.h
 
 /opt/ros/kinetic/include/XmlRpcDecl.h
 ros/macros.h

@@ -1,8 +1,8 @@
-# Install script for directory: /home/jlq2/Escritorio/var/catkin_ws/src/wander
+# Install script for directory: /home/alu/Documentos/var/catkin_ws/src/wander
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jlq2/Escritorio/var/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/alu/Documentos/var/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jlq2/Escritorio/var/catkin_ws/build/wander/catkin_generated/installspace/wander.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/alu/Documentos/var/catkin_ws/build/wander/catkin_generated/installspace/wander.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wander/cmake" TYPE FILE FILES
-    "/home/jlq2/Escritorio/var/catkin_ws/build/wander/catkin_generated/installspace/wanderConfig.cmake"
-    "/home/jlq2/Escritorio/var/catkin_ws/build/wander/catkin_generated/installspace/wanderConfig-version.cmake"
+    "/home/alu/Documentos/var/catkin_ws/build/wander/catkin_generated/installspace/wanderConfig.cmake"
+    "/home/alu/Documentos/var/catkin_ws/build/wander/catkin_generated/installspace/wanderConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wander" TYPE FILE FILES "/home/jlq2/Escritorio/var/catkin_ws/src/wander/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wander" TYPE FILE FILES "/home/alu/Documentos/var/catkin_ws/src/wander/package.xml")
 endif()
 

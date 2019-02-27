@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jlq2/Escritorio/var/catkin_ws/src/wander/src/wander.cpp" "/home/jlq2/Escritorio/var/catkin_ws/build/wander/CMakeFiles/wander.dir/src/wander.cpp.o"
+  "/home/alu/Documentos/var/catkin_ws/src/wander/src/wander.cpp" "/home/alu/Documentos/var/catkin_ws/build/wander/CMakeFiles/wander.dir/src/wander.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
