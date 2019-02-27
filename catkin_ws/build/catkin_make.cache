@@ -1,2 +1,0 @@
-wander
--DCATKIN_DEVEL_PREFIX=/home/alu/Documentos/var/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/alu/Documentos/var/catkin_ws/install -G Unix Makefiles
