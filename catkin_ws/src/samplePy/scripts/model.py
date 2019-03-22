@@ -12,7 +12,7 @@ def bias_variable(shape):
 def conv2d(x, W, stride):
   return tf.nn.conv2d(x, W, strides=[1, stride, stride, 1], padding='VALID')
 
-x = tf.placeholder(tf.float32, shape=[None, 66, 200, 3])
+x = tf.placeholder(tf.float32, shape=[None, 480, 600, 3])
 y_ = tf.placeholder(tf.float32, shape=[None, 1])
 
 x_image = x
