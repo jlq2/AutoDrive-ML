@@ -1,0 +1,8 @@
+prefix=/home/juan/Escritorio/var/catkin_ws/devel
+
+Name: samplePy
+Description: Description of samplePy
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/juan/Escritorio/var/catkin_ws/devel/lib 
+Requires: 

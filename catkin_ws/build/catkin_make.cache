@@ -1,2 +1,2 @@
-wander
--DCATKIN_DEVEL_PREFIX=/home/jlq2/Escritorio/var/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jlq2/Escritorio/var/catkin_ws/install -G Unix Makefiles
+listener:samplePy:send_velocity_commands:turtlebot_gazebo
+-DCATKIN_DEVEL_PREFIX=/home/juan/Escritorio/var/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/juan/Escritorio/var/catkin_ws/install -G Unix Makefiles
