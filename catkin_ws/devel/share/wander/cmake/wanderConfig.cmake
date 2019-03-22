@@ -67,14 +67,23 @@ set(wander_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
+<<<<<<< HEAD
   set(wander_SOURCE_PREFIX /home/juan/Escritorio/var/catkin_ws/src/wander)
   set(wander_DEVEL_PREFIX /home/juan/Escritorio/var/catkin_ws/devel)
+=======
+  set(wander_SOURCE_PREFIX /home/alu/Documentos/var/catkin_ws/src/wander)
+  set(wander_DEVEL_PREFIX /home/alu/Documentos/var/catkin_ws/devel)
+>>>>>>> fba61d9d5443177c535194ffeb42eb2ff9562f89
   set(wander_INSTALL_PREFIX "")
   set(wander_PREFIX ${wander_DEVEL_PREFIX})
 else()
   set(wander_SOURCE_PREFIX "")
   set(wander_DEVEL_PREFIX "")
+<<<<<<< HEAD
   set(wander_INSTALL_PREFIX /home/juan/Escritorio/var/catkin_ws/install)
+=======
+  set(wander_INSTALL_PREFIX /home/alu/Documentos/var/catkin_ws/install)
+>>>>>>> fba61d9d5443177c535194ffeb42eb2ff9562f89
   set(wander_PREFIX ${wander_INSTALL_PREFIX})
 endif()
 
@@ -110,7 +119,11 @@ if(NOT " " STREQUAL " ")
         message(FATAL_ERROR "Project 'wander' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
+<<<<<<< HEAD
       message(FATAL_ERROR "Project 'wander' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/juan/Escritorio/var/catkin_ws/src/wander/${idir}'.  ${_report}")
+=======
+      message(FATAL_ERROR "Project 'wander' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/alu/Documentos/var/catkin_ws/src/wander/${idir}'.  Ask the maintainer 'jlq2 <jlq2@todo.todo>' to fix it.")
+>>>>>>> fba61d9d5443177c535194ffeb42eb2ff9562f89
     endif()
     _list_append_unique(wander_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +142,11 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
+<<<<<<< HEAD
     foreach(path /home/juan/Escritorio/var/catkin_ws/devel/lib;/home/juan/Escritorio/var/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
+=======
+    foreach(path /home/alu/Documentos/var/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
+>>>>>>> fba61d9d5443177c535194ffeb42eb2ff9562f89
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

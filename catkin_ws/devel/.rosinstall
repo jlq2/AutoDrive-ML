@@ -1,2 +1,6 @@
 - setup-file:
+<<<<<<< HEAD
     local-name: /home/juan/Escritorio/var/catkin_ws/devel/setup.sh
+=======
+    local-name: /home/alu/Documentos/var/catkin_ws/devel/setup.sh
+>>>>>>> fba61d9d5443177c535194ffeb42eb2ff9562f89

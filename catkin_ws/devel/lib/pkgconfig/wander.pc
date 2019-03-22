@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 prefix=/home/juan/Escritorio/var/catkin_ws/devel
+=======
+prefix=/home/alu/Documentos/var/catkin_ws/devel
+>>>>>>> fba61d9d5443177c535194ffeb42eb2ff9562f89
 
 Name: wander
 Description: Description of wander
 Version: 0.0.0
 Cflags: 
+<<<<<<< HEAD
 Libs: -L/home/juan/Escritorio/var/catkin_ws/devel/lib 
+=======
+Libs: -L/home/alu/Documentos/var/catkin_ws/devel/lib 
+>>>>>>> fba61d9d5443177c535194ffeb42eb2ff9562f89
 Requires: 
