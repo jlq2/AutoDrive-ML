@@ -10,11 +10,7 @@
 
 # since this file is sourced either use the provided _CATKIN_SETUP_DIR
 # or fall back to the destination set at configure time
-<<<<<<< HEAD
 : ${_CATKIN_SETUP_DIR:=/home/juan/Escritorio/var/catkin_ws/devel}
-=======
-: ${_CATKIN_SETUP_DIR:=/home/alu/Documentos/var/catkin_ws/devel}
->>>>>>> fba61d9d5443177c535194ffeb42eb2ff9562f89
 _SETUP_UTIL="$_CATKIN_SETUP_DIR/_setup_util.py"
 unset _CATKIN_SETUP_DIR
 

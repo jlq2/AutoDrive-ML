@@ -105,7 +105,7 @@ void imageCallback(const sensor_msgs::ImageConstPtr& msg)
 	
 	float z = cmd.angular.z;
 
-	fs << buffer << " , " <<  z << endl;
+	fs << buffer << " " <<  z << endl;
 
 
 	cv::waitKey(30);
@@ -132,7 +132,6 @@ Gdriver = &driver;
 
 
   image_transport::ImageTransport it(nh);
- // image_transport::Subscriber sub = it.subscribe("camera/rgb/image_raw", 1, imageCallback);
    image_transport::Subscriber sub = it.subscribe("robot1/camera/rgb/image_raw", 1, imageCallback);
 
 
@@ -146,7 +145,7 @@ Gdriver = &driver;
 	}
 
 
-	fs.close();
+  fs.close();
   ros::spin();
   ros::shutdown();
 

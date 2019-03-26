@@ -1,0 +1,4 @@
+teleop_twist_joy_indigo-devel -> se ocupa de generar el dataset con el mando de la XBOX
+send_velocity_commands 		  -> Envia velocidad al robot NO SE USA
+samplePY 			 		-> Usa la red neuronal para alimentar el movimiento del robot
+listener 					-> se ocupa  ge generar el dataset con el teclado, NO SE USA 

@@ -35,16 +35,13 @@ saver.restore(sess, "/home/juan/Escritorio/var/catkin_ws/src/samplePy/scripts/sa
 
 
 
-smoothed_angle = 0
-
-
 
 class image_converter:
 
 	def __init__(self):
 		self.bridge = CvBridge()
 		self.image_sub = rospy.Subscriber("robot1/camera/rgb/image_raw",Image,self.callback)
-		self.velocity_publisher = rospy.Publisher('/robot1/mobile_base/commands/velocity', Twist, queue_size=10)
+		self.velocity_publisher = rospy.Publisher('/robot1/mobile_base/commands/velocity', Twist, queue_size=5)
 
 	def callback(self,data):
 		try:
@@ -56,13 +53,12 @@ class image_converter:
 
 
 
-		cv2.imwrite('/home/juan/VAR-DATASET/using.jpg', cv_image)
-		full_image = scipy.misc.imread("/home/juan/VAR-DATASET/using.jpg", mode="RGB")
-		image = scipy.misc.imresize(full_image[-150:], [66, 200]) / 255.0
-		degrees = model.y.eval(feed_dict={model.x: [image], model.keep_prob: 1.0}, session=sess )[0][0] * 180 / scipy.pi
+		full_image =  cv_image;
+		image = scipy.misc.imresize(full_image, [66, 200]) / 255.0
+		degrees = model.y.eval(feed_dict={model.x: [image], model.keep_prob: 1.0}, session=sess )[0][0]
 		#degrees = 45
-		vel_msg.angular.z =degrees
-		vel_msg.linear.x = 0.25
+		vel_msg.angular.z = degrees / scipy.pi * 180 * 2.5 
+		vel_msg.linear.x = 0.4
 		call("clear")
 		print("Predicted steering angle: " + str(degrees) + " degrees")
 		self.velocity_publisher.publish(vel_msg)

@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/juan/Escritorio/var/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5bd3b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5bd3b.dir/build.make CMakeFiles/cmTC_5bd3b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_21d2f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21d2f.dir/build.make CMakeFiles/cmTC_21d2f.dir/build
 make[1]: se entra en el directorio '/home/juan/Escritorio/var/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5bd3b.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_5bd3b.dir/CheckSymbolExists.c.o   -c /home/juan/Escritorio/var/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_5bd3b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bd3b.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_5bd3b.dir/CheckSymbolExists.c.o  -o cmTC_5bd3b -rdynamic 
-CMakeFiles/cmTC_5bd3b.dir/CheckSymbolExists.c.o: En la función `main':
+Building C object CMakeFiles/cmTC_21d2f.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_21d2f.dir/CheckSymbolExists.c.o   -c /home/juan/Escritorio/var/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_21d2f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21d2f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_21d2f.dir/CheckSymbolExists.c.o  -o cmTC_21d2f -rdynamic 
+CMakeFiles/cmTC_21d2f.dir/CheckSymbolExists.c.o: En la función `main':
 CheckSymbolExists.c:(.text+0x16): referencia a `pthread_create' sin definir
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_5bd3b.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_5bd3b'
-make[1]: *** [cmTC_5bd3b] Error 1
+CMakeFiles/cmTC_21d2f.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_21d2f'
+make[1]: *** [cmTC_21d2f] Error 1
 make[1]: se sale del directorio '/home/juan/Escritorio/var/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_5bd3b/fast'
-make: *** [cmTC_5bd3b/fast] Error 2
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_21d2f/fast'
+make: *** [cmTC_21d2f/fast] Error 2
 
 File /home/juan/Escritorio/var/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/juan/Escritorio/var/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fdb16/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fdb16.dir/build.make CMakeFiles/cmTC_fdb16.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d31b1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d31b1.dir/build.make CMakeFiles/cmTC_d31b1.dir/build
 make[1]: se entra en el directorio '/home/juan/Escritorio/var/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fdb16.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_fdb16.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_fdb16
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdb16.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_fdb16.dir/CheckFunctionExists.c.o  -o cmTC_fdb16 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTC_d31b1.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d31b1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d31b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d31b1.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_d31b1.dir/CheckFunctionExists.c.o  -o cmTC_d31b1 -rdynamic -lpthreads 
 /usr/bin/ld: no se puede encontrar -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_fdb16.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_fdb16'
-make[1]: *** [cmTC_fdb16] Error 1
+CMakeFiles/cmTC_d31b1.dir/build.make:97: fallo en las instrucciones para el objetivo 'cmTC_d31b1'
+make[1]: *** [cmTC_d31b1] Error 1
 make[1]: se sale del directorio '/home/juan/Escritorio/var/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_fdb16/fast'
-make: *** [cmTC_fdb16/fast] Error 2
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_d31b1/fast'
+make: *** [cmTC_d31b1/fast] Error 2
 
 
