@@ -99,7 +99,7 @@
             <alwaysOn>true</alwaysOn>
                 <updateRate>10.0</updateRate>
                 <cameraName>trasera2</cameraName>
-                <frameName>openni_camera_link</frameName>                   
+                <frameName>openni_camera_link_2</frameName>                   
             <imageTopicName>trasera2/rgb/image_raw</imageTopicName>
             <depthImageTopicName>trasera2/depth/image_raw</depthImageTopicName>
             <pointCloudTopicName>trasera2/depth/points</pointCloudTopicName>
