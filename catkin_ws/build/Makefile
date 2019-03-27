@@ -647,6 +647,19 @@ listener/fast:
 .PHONY : listener/fast
 
 #=============================================================================
+# Target rules for targets named stereo
+
+# Build rule for target.
+stereo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stereo
+.PHONY : stereo
+
+# fast build rule for target.
+stereo/fast:
+	$(MAKE) -f stereo/CMakeFiles/stereo.dir/build.make stereo/CMakeFiles/stereo.dir/build
+.PHONY : stereo/fast
+
+#=============================================================================
 # Target rules for targets named run_tests_teleop_twist_joy_rostest_test_turbo_angular_enable_joy_with_rosparam_map.test
 
 # Build rule for target.
@@ -1125,6 +1138,7 @@ help:
 	@echo "... sensor_msgs_generate_messages_lisp"
 	@echo "... _catkin_empty_exported_target"
 	@echo "... listener"
+	@echo "... stereo"
 	@echo "... run_tests_teleop_twist_joy_rostest_test_turbo_angular_enable_joy_with_rosparam_map.test"
 	@echo "... run_tests_teleop_twist_joy_rostest_test_turbo_angular_enable_joy.test"
 	@echo "... _run_tests_teleop_twist_joy_rostest_test_only_turbo_joy.test"

@@ -19,6 +19,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "samplePy/catkin_generated/package.cmake"
   "send_velocity_commands/catkin_generated/ordered_paths.cmake"
   "send_velocity_commands/catkin_generated/package.cmake"
+  "stereo/catkin_generated/ordered_paths.cmake"
+  "stereo/catkin_generated/package.cmake"
   "teleop_twist_joy-indigo-devel/catkin_generated/ordered_paths.cmake"
   "teleop_twist_joy-indigo-devel/catkin_generated/package.cmake"
   "turtlebot_gazebo/catkin_generated/package.cmake"
@@ -29,6 +31,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/juan/Escritorio/var/catkin_ws/src/samplePy/package.xml"
   "/home/juan/Escritorio/var/catkin_ws/src/send_velocity_commands/CMakeLists.txt"
   "/home/juan/Escritorio/var/catkin_ws/src/send_velocity_commands/package.xml"
+  "/home/juan/Escritorio/var/catkin_ws/src/stereo/CMakeLists.txt"
+  "/home/juan/Escritorio/var/catkin_ws/src/stereo/package.xml"
   "/home/juan/Escritorio/var/catkin_ws/src/teleop_twist_joy-indigo-devel/CMakeLists.txt"
   "/home/juan/Escritorio/var/catkin_ws/src/teleop_twist_joy-indigo-devel/package.xml"
   "/home/juan/Escritorio/var/catkin_ws/src/turtlebot_gazebo/CMakeLists.txt"
@@ -209,6 +213,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "turtlebot_gazebo/CMakeFiles/CMakeDirectoryInformation.cmake"
   "samplePy/CMakeFiles/CMakeDirectoryInformation.cmake"
   "listener/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "stereo/CMakeFiles/CMakeDirectoryInformation.cmake"
   "teleop_twist_joy-indigo-devel/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -251,6 +256,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "send_velocity_commands/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "turtlebot_gazebo/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake"
   "listener/CMakeFiles/listener.dir/DependInfo.cmake"
+  "stereo/CMakeFiles/stereo.dir/DependInfo.cmake"
   "teleop_twist_joy-indigo-devel/CMakeFiles/run_tests_teleop_twist_joy_rostest_test_turbo_angular_enable_joy_with_rosparam_map.test.dir/DependInfo.cmake"
   "teleop_twist_joy-indigo-devel/CMakeFiles/run_tests_teleop_twist_joy_rostest_test_turbo_angular_enable_joy.test.dir/DependInfo.cmake"
   "teleop_twist_joy-indigo-devel/CMakeFiles/_run_tests_teleop_twist_joy_rostest_test_only_turbo_joy.test.dir/DependInfo.cmake"

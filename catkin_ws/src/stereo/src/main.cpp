@@ -129,7 +129,7 @@ public:
                 cv::cvtColor(rightFixed, rightGray, cv::COLOR_BGR2GRAY);
                 stereo.get()->compute(leftGray, rightGray, out);
 
-                cv::imshow("Depth", out * 10);
+                cv::imshow("Depth", out * 16);
                 cv::waitKey(30);
             }
 

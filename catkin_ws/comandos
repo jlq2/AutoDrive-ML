@@ -1,0 +1,11 @@
+roscore
+source devel/setup.bash
+roslaunch turtlebot_gazebo create_multi_robot.launch 
+rosrun samplePy listener.py
+
+rosrun stereo stereo
+
+
+rosrun joy joy_node
+rosrun teleop_twist_joy teleop_node
+

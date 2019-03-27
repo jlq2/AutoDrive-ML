@@ -84,6 +84,14 @@
 /home/juan/Escritorio/var/catkin_ws/build/listener/CMakeFiles/install/local.dir
 /home/juan/Escritorio/var/catkin_ws/build/listener/CMakeFiles/listener.dir
 /home/juan/Escritorio/var/catkin_ws/build/listener/CMakeFiles/test.dir
+/home/juan/Escritorio/var/catkin_ws/build/stereo/CMakeFiles/list_install_components.dir
+/home/juan/Escritorio/var/catkin_ws/build/stereo/CMakeFiles/install.dir
+/home/juan/Escritorio/var/catkin_ws/build/stereo/CMakeFiles/rebuild_cache.dir
+/home/juan/Escritorio/var/catkin_ws/build/stereo/CMakeFiles/edit_cache.dir
+/home/juan/Escritorio/var/catkin_ws/build/stereo/CMakeFiles/stereo.dir
+/home/juan/Escritorio/var/catkin_ws/build/stereo/CMakeFiles/test.dir
+/home/juan/Escritorio/var/catkin_ws/build/stereo/CMakeFiles/install/strip.dir
+/home/juan/Escritorio/var/catkin_ws/build/stereo/CMakeFiles/install/local.dir
 /home/juan/Escritorio/var/catkin_ws/build/teleop_twist_joy-indigo-devel/CMakeFiles/list_install_components.dir
 /home/juan/Escritorio/var/catkin_ws/build/teleop_twist_joy-indigo-devel/CMakeFiles/edit_cache.dir
 /home/juan/Escritorio/var/catkin_ws/build/teleop_twist_joy-indigo-devel/CMakeFiles/install/strip.dir

@@ -188,7 +188,7 @@ void TeleopTwistJoy::Impl::sendCmdVelMsg(const sensor_msgs::Joy::ConstPtr& joy_m
 
 	//A pesar de los valores son cero por defecto comentamos los valores para ir probando lo que mas nos interesa
 	//Ademas, nuestro robot solo utiliza dos ejes para moverse
-	cmd_vel_msg.linear.x = 0.8; //getVal(joy_msg, axis_linear_map, scale_linear_map["normal"], "x");
+	cmd_vel_msg.linear.x = 0.5; //getVal(joy_msg, axis_linear_map, scale_linear_map["normal"], "x");
 	cmd_vel_msg.linear.y = 0; //getVal(joy_msg, axis_linear_map, scale_linear_map[which_map], "y");
 	cmd_vel_msg.linear.z = 0; //getVal(joy_msg, axis_linear_map, scale_linear_map[which_map], "z");
 	cmd_vel_msg.angular.z = getVal(joy_msg, axis_angular_map, scale_angular_map["normal"], "yaw");
@@ -210,11 +210,11 @@ void TeleopTwistJoy::Impl::sendCmdVelMsg(const sensor_msgs::Joy::ConstPtr& joy_m
 		char buffer [300];
 		sprintf(buffer,"/home/juan/VAR-DATASET/OpenCVImages/Image%d.jpg",globalID);
 
-		//std::cout << "escribir imagen" << std::endl;
+		std::cout << "escribir imagen" << std::endl;
 	
 		//Tras deferenciar el puntero dos veces guardamos la imagen en la ruta definida
 		cv::imwrite(buffer, **imagenPendiente );
-		//std::cout << "ESCRITAA imagen" << std::endl;
+		std::cout << "ESCRITAA imagen" << std::endl;
 		globalID++;
 
 	
@@ -265,3 +265,4 @@ void TeleopTwistJoy::Impl::joyCallback(const sensor_msgs::Joy::ConstPtr& joy_msg
 }
 
 }  // namespace teleop_twist_joy
+
